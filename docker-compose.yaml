@@ -1,0 +1,11 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:14.2
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "cat_db"
+      POSTGRES_USER: "cat_user"
+      POSTGRES_PASSWORD: "1234"

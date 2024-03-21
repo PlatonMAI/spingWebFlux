@@ -1,0 +1,19 @@
+#spring.application.name=WebFluxTest
+spring:
+#  r2dbc:
+#    url: r2dbc:postgresql://localhost:5432/car_store_db
+#    username: car_user
+#    password: 123
+#
+#  main:
+#    allow-bean-definition-overriding: true
+#  profiles:
+#    active: dev
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baselineOnMigrate: true
+    url: jdbc:postgresql://localhost:5432/cat_db
+    user: cat_user
+    password: 1234

@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/cats
+Content-Type: application/json
+
+{
+  "name": "Кисич",
+  "age": 15
+}

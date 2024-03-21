@@ -1,0 +1,1 @@
+INSERT INTO CAT (ID, NAME, AGE) VALUES (1, 'barsik', 100)
